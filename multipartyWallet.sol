@@ -7,7 +7,7 @@ contract multipartyWallet {
     address Administer;
     uint numberOfProposals;
     uint public approvalPercent=60;
-    //to store the 
+ 
     struct transactionProposal{
         address initiator;
         address to;
